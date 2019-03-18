@@ -1,0 +1,30 @@
+.ui-tree .ui-treenode {
+  background-color: #f8f9fa;
+}
+
+:host ::ng-deep {
+  .drag-zone {
+    .ui-tree {
+      width: 100% !important;
+    }
+    .ui-treenode-label {
+      width: 90% !important;
+    }
+    &:hover {
+      background-color: #d5e9f3;
+      cursor: move;
+    }
+  }
+}
+
+.drag-item {
+  background-color: rgba(213, 233, 243, 0.5);
+}
+
+.drag-btn {
+  color: #4c616b;
+}
+
+.ui-treenode {
+  padding: 0.01em 0 !important;
+}

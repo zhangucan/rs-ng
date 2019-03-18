@@ -1,0 +1,21 @@
+管理平台网址：https://zz.253.com/v5.html#/home
+
+账号：15623129808
+
+密码：wyf962464
+
+API账号   :    CN1103233 
+
+API密码   :    U6ea38fdZG839b 
+
+当前节点  :    华东节点 
+
+API接口   :    
+
+短信发送 http://smssh1.253.com/msg/send/json
+
+变量发送 http://smssh1.253.com/msg/variable/json
+
+余额查询 http://smssh1.253.com/msg/balance/json
+
+文档：https://zz.253.com/v5.html#/api_doc

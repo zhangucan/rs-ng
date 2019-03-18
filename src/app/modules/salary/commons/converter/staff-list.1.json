@@ -1,0 +1,484 @@
+[
+  {
+    "isCurrent": false,
+    "empId": "20181203145230485",
+    "name": "谢小丽",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c66",
+      "name": "杨凯"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "empId": "20181203145230485",
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c66",
+      "name": "杨凯"
+    },
+    "gender": "女",
+    "entryDate": "2015-08-03",
+    "displayOrder": 485,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "isCurrent": false,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "谢小丽",
+    "changeDate": "2018-11-01",
+    "workPlace": "本部"
+  },
+  {
+    "empId": "20181203145230485",
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c66",
+      "name": "杨凯"
+    },
+    "gender": "女",
+    "entryDate": "2015-08-03",
+    "displayOrder": 485,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "isCurrent": true,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "谢小丽",
+    "changeDate": "2018-11-05",
+    "workPlace": "本部"
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230564",
+    "name": "李路",
+    "post": {
+      "name": "项目经理",
+      "code": "003"
+    },
+    "title": {
+      "name": "经理",
+      "code": "004"
+    },
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b9566",
+      "name": "黄丹"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "格力凌达+李尔云鹤项目组",
+      "code": "001001015059"
+    },
+    "entryDate": "2017-7-4",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 564
+  },
+  {
+    "empId": "20181203145230564",
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b9566",
+      "name": "黄丹"
+    },
+    "gender": "女",
+    "entryDate": "2017-7-4",
+    "displayOrder": 564,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "格力凌达+李尔云鹤项目组",
+      "code": "001001015059"
+    },
+    "title": {
+      "name": "经理",
+      "code": "004"
+    },
+    "isCurrent": true,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "项目经理",
+      "code": "003"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "李路",
+    "changeDate": "2018-11-20",
+    "workPlace": "本部"
+  },
+  {
+    "isCurrent": true,
+    "empId": "20181203145230324",
+    "name": "张少杰",
+    "post": {
+      "name": "项目经理",
+      "code": "003"
+    },
+    "title": {
+      "name": "经理",
+      "code": "004"
+    },
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b9566",
+      "name": "黄丹"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "远航物流+安吉项目组",
+      "code": "001001015033"
+    },
+    "entryDate": "2017-7-27",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "男",
+    "displayOrder": 324
+  },
+  {
+    "isCurrent": true,
+    "empId": "20181203145230335",
+    "name": "赵安",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b96a6",
+      "name": "张少杰"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "远航物流+安吉项目组",
+      "code": "001001015033"
+    },
+    "entryDate": "2017-7-14",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "男",
+    "displayOrder": 335
+  },
+  {
+    "isCurrent": true,
+    "empId": "20181203145230540",
+    "name": "张亮",
+    "post": {
+      "name": "项目经理",
+      "code": "003"
+    },
+    "title": {
+      "name": "经理",
+      "code": "004"
+    },
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b9566",
+      "name": "黄丹"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "长联来福+友德项目组",
+      "code": "001001015057"
+    },
+    "entryDate": "2015-10-30",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "男",
+    "displayOrder": 540
+  },
+  {
+    "empId": "20181203145230341",
+    "leader": {
+      "id": "5c04d3069d6e6820bc9b9ca3",
+      "name": "李路"
+    },
+    "gender": "男",
+    "entryDate": "2018-3-5",
+    "displayOrder": 341,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "格力凌达+李尔云鹤项目组",
+      "code": "001001015059"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "isCurrent": true,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "驻厂专员",
+      "code": "009"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "丁四海",
+    "changeDate": "2018-11-20",
+    "workPlace": "驻厂"
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230341",
+    "name": "丁四海",
+    "post": {
+      "name": "驻厂专员",
+      "code": "009"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b96a6",
+      "name": "张少杰"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "远航物流+安吉项目组",
+      "code": "001001015033"
+    },
+    "entryDate": "2018-3-5",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "驻厂",
+    "gender": "男",
+    "displayOrder": 341
+  },
+  {
+    "empId": "20181203145230341",
+    "leader": {
+      "id": "5c04d2b39d6e6820bc9b96a6",
+      "name": "张少杰"
+    },
+    "gender": "男",
+    "entryDate": "2018-3-5",
+    "displayOrder": 341,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "远航物流+安吉项目组",
+      "code": "001001015033"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "isCurrent": true,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "驻厂专员",
+      "code": "009"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "丁四海",
+    "changeDate": "2018-11-23",
+    "workPlace": "驻厂"
+  },
+  {
+    "empId": "20181203145230488",
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c68",
+      "name": "谢小丽"
+    },
+    "gender": "男",
+    "entryDate": "2017-2-13",
+    "displayOrder": 488,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "isCurrent": true,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "招聘专员",
+      "code": "007"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "严家发",
+    "changeDate": "2018-11-05",
+    "workPlace": "本部"
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230488",
+    "name": "严家发",
+    "post": {
+      "name": "招聘专员",
+      "code": "007"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c68",
+      "name": "谢小丽"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "entryDate": "2017-2-13",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "男",
+    "displayOrder": 488
+  },
+  {
+    "empId": "20181203145230488",
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c68",
+      "name": "谢小丽"
+    },
+    "gender": "男",
+    "entryDate": "2017-2-13",
+    "displayOrder": 488,
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "title": {
+      "name": "员工",
+      "code": "006"
+    },
+    "isCurrent": false,
+    "createdDate": "2018-11-01",
+    "post": {
+      "name": "招聘专员",
+      "code": "007"
+    },
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "name": "严家发",
+    "changeDate": "2018-11-01",
+    "workPlace": "本部"
+  }
+]

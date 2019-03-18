@@ -1,0 +1,85 @@
+.ng-dirty {
+  border-color: #cccccc !important;
+}
+
+.ng-touched {
+  &.er-valid {
+    &:after {
+      display: inline;
+      content: '\f058 检验通过';
+      font-family: FontAwesome;
+      position: relative;
+      margin-right: 5px;
+      top: 2px;
+      float: right;
+      color: #42A948;
+      font-size: 0.6em;
+    }
+  }
+  &.er-invalid {
+    &:after {
+      display: inline-block;
+      content: '\f057 检验失败';
+      font-family: FontAwesome;
+      position: relative;
+      margin-right: 5px;
+      top: 2px;
+      float: right;
+      color: #f63c3a;
+      font-size: 0.6em;
+    }
+  }
+}
+
+.panel-title {
+  border-left: gold 5px solid;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+label.required {
+  &:before {
+    color: red;
+    content: "*";
+    position: relative;
+    margin-right: 5px;
+    top: -2px;
+  }
+}
+
+* [disabled] {
+  cursor: not-allowed;
+}
+
+.inner-addon {
+  position: relative;
+  > .fa {
+    position: absolute;
+    padding: 10px 10px 10px 5px;
+    &.left {
+      left: 0;
+    }
+    &.right {
+      right: 0;
+    }
+  }
+  > input {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.icon-addon {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  .fa {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+}
+
+

@@ -1,0 +1,194 @@
+.layout-wrapper .topbar .topbar-left,
+.layout-wrapper .topbar .topbar-right {
+  background: #69b6ec;
+}
+
+.layout-wrapper .topbar .topbar-right #menu-button {
+  color: #21639f;
+  background: #fff;
+}
+
+.layout-wrapper .layout-menu-container.layout-menu-dark {
+  background: #3b4966;
+}
+
+.layout-wrapper .layout-menu-container.layout-menu-dark ul.layout-menu li.active-menuitem > a {
+  border-left-color: #acd5fd;
+  color: #acd5fd;
+  background-color: #283247;
+}
+
+.layout-menu li a.active-menuitem-routerlink {
+  background-color: #fd9163 !important;
+}
+
+.layout-menu li a:hover {
+  background-color: #4983b8 !important;
+}
+
+a {
+  color: #21639f;
+}
+
+.breadcrumb-item.active {
+  color: #b5c8da;
+}
+
+.text-primary {
+  color: #6aa5d8 !important;
+}
+
+.table-caption {
+  border-left: 5px solid #45c8dc;
+}
+
+.ui-button.ui-state-default.ui-button-success {
+  background-color: #3fa1e6;
+  border-color: #3fa1e6;
+}
+
+.ui-paginator .ui-paginator-pages {
+  height: 34.5px !important;
+}
+
+.ui-paginator .ui-paginator-prev {
+  padding: 3.1px 0.375em;
+  color: #5aa5d8;
+}
+
+.ui-paginator .ui-paginator-first,
+.ui-paginator .ui-paginator-next,
+.ui-paginator .ui-paginator-last {
+  padding: 4px 0.375em;
+  color: #5aa5d8;
+}
+
+.ui-paginator .ui-paginator-pages .ui-paginator-page {
+  color: #5aa5d8;
+}
+
+.ui-paginator .ui-paginator-pages .ui-paginator-page.ui-state-active {
+  background-color: #5aa5d8;
+  border-color: #5aa5d8;
+}
+
+.ui-button.ui-state-default.ui-button-success:enabled:hover,
+.ui-buttonset.ui-button-success > .ui-button.ui-state-default:enabled:hover {
+  background-color: #3fa1e6;
+  border-color: #3fa1e6;
+}
+
+.layout-main {
+  min-height: 500px;
+}
+
+.ui-buttonset.ui-button-success > .ui-button.ui-state-default:enabled:hover {
+  background-color: #3fa1e6;
+  border-color: #3fa1e6;
+}
+
+.ui-listbox .ui-listbox-item.ui-state-highlight {
+  background-color: #91cbe3;
+  color: #ffffff;
+}
+
+.ui-listbox .ui-listbox-item.ui-state-highlight {
+  background-color: #91cbe3;
+  color: #ffffff;
+}
+
+.badge-dept {
+  color: #539edf;
+  background-color: #f8f9fa;
+}
+.badge-team {
+  color: #e46e6e;
+  background-color: #f8f9fa;
+}
+.badge-group {
+  color: #fc914a;
+  background-color: #f8f9fa;
+}
+.badge-modifiedDate {
+  color: #fff;
+  background-color: #cccccc;
+}
+
+.topbar.clearfix .topbar-right span {
+  padding-left: 30px;
+  color: #fff;
+  font-size: 22px;
+}
+
+.ui-inputswitch {
+  height: 1.75em;
+}
+
+.ui-calendar.ui-calendar-w-btn .ui-datepicker-trigger.ui-button {
+  padding: 2px;
+}
+
+.ui-panel .ui-panel-content.ui-widget-content {
+  padding: 0;
+  border: none;
+  .ui-g.ui-fluid {
+    .ui-g-12.ui-inputgroup {
+      padding: 5px 0;
+    }
+    .ui-card-body {
+      padding: 0;
+      .ui-tree {
+        padding: 0;
+        border: none;
+      }
+    }
+  }
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.ui-overlaypanel-content .shadow {
+  box-shadow: none !important;
+  width: auto !important;
+  margin-bottom: 0 !important;
+  .ng-star-inserted {
+    margin-top: 5px;
+  }
+}
+
+.ui-overlaypanel .ui-overlaypanel-close span {
+  margin-top: 0px;
+}
+
+.ui-resizable-column.ng-star-inserted {
+  .pull-right.ng-star-inserted {
+    margin-left: 5px;
+  }
+}
+
+.ui-panel-titlebar.ui-widget-header.ui-helper-clearfix.ui-corner-all.ng-star-inserted {
+  margin-bottom: 10px;
+}
+
+.ui-g-12.ui-md-6.ui-lg-3.ng-star-inserted:first-child {
+  padding-left: 0;
+}
+
+.ui-g-12.ui-md-6.ui-lg-3.ng-star-inserted:last-child {
+  padding-right: 0;
+}
+
+table td .badge {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.urp-left {
+  left: 10px !important;
+}
+
+.ui-panel-content-wrapper.ng-trigger.ng-trigger-panelContent {
+  padding: 20px;
+}

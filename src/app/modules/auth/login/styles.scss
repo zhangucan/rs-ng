@@ -1,0 +1,156 @@
+.container-fluid {
+  height: 100vh;
+}
+
+.login-container {
+  height: 100vh;
+  padding: 160px;
+  background: linear-gradient(to top, #6a11cb, #2575fc);
+
+  .title-bar {
+    height: 12%;
+    background-color: #07c6fd;
+    .title {
+      font-size: 33px;
+      color: rgba(0, 0, 0, 0.85);
+      font-family: Avenir, Helvetica Neue, Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      position: relative;
+      top: 2px;
+    }
+  }
+
+  .login-form {
+    height: 100%;
+    // background: #fff;
+    border-radius: 30px;
+  }
+
+  input {
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 5px solid gold;
+  }
+
+  label {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+.urp-title {
+  font-size: 20px;
+}
+
+.urp_login_container {
+  width: 100%;
+  min-height: 100vh;
+  background: url('/assets/images/backdrop.png') no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  .urp-cards {
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    .urp-taps {
+      font-size: 27px;
+    }
+    .cont {
+      .row {
+        .header {
+          margin-bottom: 20px;
+        }
+        .name {
+          font-size: 25px;
+          border-left: 5px solid gold;
+          padding-left: 5px;
+        }
+        .login_card {
+          background: #fff;
+          padding: 20px;
+          color: #333;
+          border-radius: 5px;
+
+          .urp-input {
+            margin: 15px 0;
+            font-size: 14px;
+
+            .urp-input-item {
+              display: flex;
+              flex-direction: column;
+
+              input {
+                width: 100%;
+                outline: invert none 0px;
+                border: 1px solid grey;
+                text-shadow: none;
+                -webkit-appearance: none;
+                -webkit-user-select: text;
+                box-shadow: none;
+                padding: 8px 5px;
+              }
+            }
+          }
+          .zhuce {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.ui-float-label > input:focus ~ label,
+.ui-float-label > input.ui-state-filled ~ label,
+.ui-float-label > .ui-inputwrapper-focus ~ label,
+.ui-float-label > .ui-inputwrapper-filled ~ label {
+  top: 0.25em;
+  font-size: 12px;
+}
+
+.ui-float-label > label {
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 0.25em;
+  top: 50%;
+  margin-top: -2em;
+  transition: 0.3s ease all;
+  -moz-transition: 0.3s ease all;
+  -webkit-transition: 0.3s ease all;
+  color: #898989;
+  line-height: 1;
+}
+
+$duration: 5s;
+$text-color: #fff;
+$bgr-color: #333;
+.shine {
+  margin: 15px 0;
+  font-size: 60px;
+  color: $text-color;
+  background-image: linear-gradient(to right, red, orange, yellow, green);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-background-size: 200% 100%;
+  animation: shine 5s infinite linear;
+}
+
+@-webkit-keyframes shine {
+  0%,
+  10% {
+    background-position: -1000px;
+  }
+  20% {
+    background-position: top left;
+  }
+  90% {
+    background-position: top right;
+  }
+  100% {
+    background-position: 1000px;
+  }
+}

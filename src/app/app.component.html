@@ -1,0 +1,11 @@
+<div *ngIf="httpState$|async" class="loading-bar"></div>
+<div *ngIf="routeState$|async" style="height: 100vh">
+  <div class="splash">
+    <div class="color-line"></div>
+    <div class="splash-title">
+      <h1>页面加载中...</h1>
+      <img src="assets/images/loading-bars.svg" width="64" height="64"/>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>

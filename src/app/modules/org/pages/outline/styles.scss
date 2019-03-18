@@ -1,0 +1,74 @@
+.org-chart {
+  max-width: 100vw;
+  overflow: auto;
+}
+
+.root.ui-organizationchart .ui-organizationchart-node-content.ui-group {
+  padding: 0;
+  border: 0 none;
+}
+
+.node-header, .node-content {
+  padding: .5em .7em;
+}
+
+.corp {
+  &.node-header {
+    background-color: #495ebb;
+    color: #ffffff;
+  }
+  &.node-content {
+    text-align: center;
+    border: 1px solid #495ebb;
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.dept {
+  &.node-header {
+    background-color: #7247bc;
+    color: #ffffff;
+  }
+  .node-content {
+    text-align: center;
+    border: 1px solid #495ebb;
+    img {
+      border-radius: 50%;
+    }
+  }
+}
+
+.team {
+  &.node-header {
+    background-color: #a534b6;
+    color: #ffffff;
+  }
+}
+
+.group {
+  &.node-header {
+    background-color: #e9286f;
+    color: #ffffff;
+  }
+}
+
+.team .ui-node-toggler {
+  color: #495ebb !important;
+}
+
+.dept .ui-node-toggler {
+  color: #8a0a39 !important;
+}
+
+.more .ui-node-toggler {
+  color: #75ff16 !important;
+}
+
+/deep/ {
+  .ui-tree.ui-tree-horizontal .ui-treenode {
+    padding: .1em .5em !important;
+  }
+}
+

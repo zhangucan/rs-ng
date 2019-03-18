@@ -1,0 +1,32 @@
+@import 'maps/_color.scss';
+@import 'functions/_color.scss';
+
+@each $color, $value in $colors {
+  .#{"bg-" + $color} {
+    background: $value;
+  }
+}
+
+@each $color, $value in $colors {
+  .#{"border-" + $color} {
+    border-color: $value;
+  }
+}
+
+@each $color, $value in $colors {
+  .#{"" + $color} {
+    color: $value;
+  }
+}
+
+@each $color, $value in $colors {
+  .#{"fill-" + $color} {
+    fill: $value;
+  }
+}
+
+@each $color, $value in $colors {
+  .#{"stroke-" + $color} {
+    stroke: $value;
+  }
+}

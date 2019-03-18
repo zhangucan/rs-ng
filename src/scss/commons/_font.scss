@@ -1,0 +1,110 @@
+.fa-sum:before {
+  content: "\03a3";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.root:before {
+  border: 2px solid green;
+  border-radius: 50%;
+  padding: 2px;
+  content: "纳";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.corp:before {
+  border: 2px solid green;
+  background-color: #07116f;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  content: "司";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.dept:before {
+  border: 2px solid green;
+  background-color: #6c6f0e;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  content: "部";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.team:before {
+  border: 2px solid green;
+  background-color: #0A616F;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  content: "项";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.group:before {
+  border: 2px solid green;
+  background-color: #6aa5d8;
+  color: white;
+  border-radius: 50%;
+  padding: 2px;
+  content: "组";
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.data-code {
+  font-size: 1.2em;
+}
+
+.font-size-1 {
+  font-size: 2.5rem !important;
+}
+
+.font-size-2 {
+  font-size: 2rem !important;
+}
+
+.font-size-3 {
+  font-size: 1.75rem !important;
+}
+
+.font-size-4 {
+  font-size: 1.5rem !important;
+}
+
+.font-size-5 {
+  font-size: 1.25rem !important;
+}
+
+.font-size-6 {
+  font-size: 1rem !important;
+}
+
+.font-size-7 {
+  font-size: .75rem !important;
+}
+
+.font-size-8 {
+  font-size: .5rem !important;
+}
+
+.badge-corner {
+  position: relative;
+  padding-right: 20px;
+  .badge {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    background: #39F;
+    font-size: .2em;
+    opacity: 0.75;
+  }
+}
+
+
+

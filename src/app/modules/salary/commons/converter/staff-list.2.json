@@ -1,0 +1,204 @@
+[
+  {
+    "isCurrent": false,
+    "empId": "20181203145230485",
+    "name": "谢小丽",
+    "post": {
+      "name": "招聘专员",
+      "code": "008"
+    },
+    "title": {
+      "name": "员工",
+      "code": "005"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "group": {
+      "name": "测试小组",
+      "code": "001001015050001"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230485",
+    "name": "谢小丽",
+    "post": {
+      "name": "招聘专员",
+      "code": "008"
+    },
+    "title": {
+      "name": "员工",
+      "code": "005"
+    },
+    "leader": {
+      "id": "5c04d2ff9d6e6820bc9b9c66",
+      "name": "杨凯"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-20",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "isCurrent": true,
+    "empId": "20181203145230485",
+    "name": "谢小丽",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "group": {
+      "name": "测试小组",
+      "code": "001001015050001"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-25",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "isCurrent": true,
+    "empId": "20181203145230485",
+    "name": "谢毛毛",
+    "post": {
+      "name": "招聘经理",
+      "code": "008"
+    },
+    "title": {
+      "name": "经理",
+      "code": "005"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230485",
+    "name": "小红",
+    "post": {
+      "name": "招聘主管",
+      "code": "008"
+    },
+    "title": {
+      "name": "主管",
+      "code": "005"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "group": {
+      "name": "测试小组",
+      "code": "001001015050001"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-01",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  },
+  {
+    "isCurrent": false,
+    "empId": "20181203145230485",
+    "name": "小红",
+    "post": {
+      "name": "招聘专员",
+      "code": "008"
+    },
+    "title": {
+      "name": "员工",
+      "code": "005"
+    },
+    "dept": {
+      "name": "派遣部",
+      "code": "001001015"
+    },
+    "team": {
+      "name": "东泰盛项目组",
+      "code": "001001015050"
+    },
+    "entryDate": "2015-08-03",
+    "changeDate": "2018-11-25",
+    "createdDate": "2018-11-01",
+    "empStatus": {
+      "name": "在职",
+      "code": "001008002"
+    },
+    "workPlace": "本部",
+    "gender": "女",
+    "displayOrder": 485
+  }
+]

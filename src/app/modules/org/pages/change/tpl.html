@@ -1,0 +1,64 @@
+<div class="container">
+  <div class="row p-4">
+    <div class="col-3"><span class="pull-right font-weight-bold">异动机构</span></div>
+    <div class="col-9">
+      <div class="ui-fluid">
+        <png-auto-complete [(ngModel)]="dragNode" [props]="autoCompleteProps" erPropsBind noerror></png-auto-complete>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="dragNode">
+    <png-panel class="w-100" header="层级异动">
+      <div class="row">
+        <div class="col-6 mt-2">
+          <div>异动对象：</div>
+          <div class="border my-3 drag-zone">
+            <!--<png-tree erPropsBind [props]="treeProps">-->
+            <!--</png-tree>-->
+            <p-tree [draggableNodes]="true" [value]="dragNodes">
+              <ng-template let-node pTemplate="default">
+                <div class="d-flex align-items-center drag-item drag-zone">
+                  <i class="fa fa-institution fa-2x"> </i>
+                  <div>
+                    <span class="mr-2 float-left"><b>{{node.label}}</b></span>
+                    <span class="mx-1 white text-info" erTag>{{ node.data['parent'].name }}</span>
+                    <span class="mx-1 white text-danger" erTag>{{ node.data['orgType'].name }}</span>
+                  </div>
+                  <div class="m-auto">
+                    <i class="fa fa-arrows fa-2x mr-1 drag-btn pull-right"></i>
+                  </div>
+                </div>
+              </ng-template>
+            </p-tree>
+          </div>
+        </div>
+        <div class="col-6">
+          <div>异动到</div>
+          <png-tree #destTree [props]="treeProps" erPropsBind>
+            <ng-template erTypedTemplate="node" let-node>
+              <span *ngIf="node['dropped']" class="d-flex align-items-center ">
+                  <span [innerHTML]="node['label']" class="ui-state-highlight font-weight-bold"></span>
+                  <span class="ml-5">
+                    <i (click)="delete(node)" class="fa fa-trash pull-right" title="取消"></i>
+                  </span>
+                </span>
+              <span *ngIf="!node['dropped']" [innerHTML]="node['label']"
+                    [ngClass]="{'ui-state-highlight':node['matched']}">
+              </span>
+            </ng-template>
+          </png-tree>
+        </div>
+      </div>
+    </png-panel>
+    <png-panel barStyleClass="white bg-green" class="w-100" header="属性异动">
+      <div class="row">
+        <div class="col-12">
+          <!--<png-formly-form erPropsBind [props]="formProps"></png-formly-form>-->
+        </div>
+      </div>
+    </png-panel>
+    <div class="row">
+      <png-button title="保存"></png-button>
+    </div>
+  </div>
+</div>

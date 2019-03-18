@@ -1,0 +1,91 @@
+<div class="dashboard">
+  <div class="ui-g overview-boxes">
+    <ng-container *ngIf="stat$|async as stat">
+      <div class="ui-g-12 ui-md-6 ui-lg-3">
+        <div class="ui-g overview-box overview-box-1">
+          <div class="overview-box-title">
+            <i class="fa fa-inbox"></i>
+            <span>部门</span>
+          </div>
+          <div class="overview-box-count">{{stat['dept']}}</div>
+          <div class="overview-box-stats"></div>
+        </div>
+      </div>
+      <div class="ui-g-12 ui-md-6 ui-lg-3">
+        <div class="ui-g overview-box overview-box-2">
+          <div class="overview-box-title">
+            <i class="fa fa-map-pin"></i>
+            <span>项目组</span>
+          </div>
+          <div class="overview-box-count">{{stat['team']}}</div>
+          <div class="overview-box-stats"></div>
+        </div>
+      </div>
+      <div class="ui-g-12 ui-md-6 ui-lg-3">
+        <div class="ui-g overview-box overview-box-3">
+          <div class="overview-box-title">
+            <i class="fa fa-folder"></i>
+            <span>员工</span>
+          </div>
+          <div class="overview-box-count">{{stat['employee']}}</div>
+          <div class="overview-box-stats"></div>
+        </div>
+      </div>
+      <div class="ui-g-12 ui-md-6 ui-lg-3">
+        <div class="ui-g overview-box overview-box-4">
+          <div class="overview-box-title">
+            <i class="fa fa-user"></i>
+            <span>派遣单位</span>
+          </div>
+          <div class="overview-box-count">{{stat['employer']}}</div>
+          <div class="overview-box-stats"></div>
+        </div>
+      </div>
+    </ng-container>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <chart-panel [chartProps]="boards['daysEnroll']"></chart-panel>
+    </div>
+  </div>
+
+  <p-panel class="pt-2" header="上月派遣业绩榜">
+    <div class="row">
+      <div class="col-6">
+        <png-chart [props]="boards['topEnroll']" erPropsBind></png-chart>
+      </div>
+      <div class="col-6">
+        <png-chart [props]="boards['bottomEnroll']" erPropsBind></png-chart>
+      </div>
+    </div>
+  </p-panel>
+
+  <p-panel class="pt-2" header="上月优秀业绩企业及员工">
+    <div class="row">
+      <div class="col-6">
+        <png-table [props]="boards['staff']" erPropsBind></png-table>
+      </div>
+      <div class="col-6">
+        <png-table [props]="boards['employee']" erPropsBind></png-table>
+      </div>
+    </div>
+  </p-panel>
+
+  <div class="ui-g">
+    <div class="ui-g-12 ui-lg-6 product-statistics">
+      <!--<chart-panel [chartProps]="stat['district']"></chart-panel>-->
+    </div>
+  </div>
+
+  <div class="ui-g">
+    <div class="ui-g-12 ui-lg-6 global-sales">
+      <!--<chart-panel [chartProps]="stat['district']"></chart-panel>-->
+    </div>
+
+    <div class="ui-g-12 ui-lg-6 product-statistics">
+      <!--<chart-panel [chartProps]="stat['district']"></chart-panel>-->
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,15 @@
+/* You can add global styles to this file, and also import other style files */
+body, html {
+  height: 100%;
+}
+
+* {
+  font-family: Helvetica, Tahoma, Arial, "STXihei", "华文细黑",
+  "Microsoft YaHei", "微软雅黑", sans-serif;
+}
+
+@import "~font-awesome/css/font-awesome.min.css";
+@import "~animate.css/animate.css";
+@import "~material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
+@import "scss/style";
+

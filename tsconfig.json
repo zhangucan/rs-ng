@@ -1,0 +1,30 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./dist/out-tsc",
+    "baseUrl": "./",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["es2017", "dom"],
+    "paths": {
+      "@app/config/*": ["src/app/config/*"],
+      "@shares": [
+        "src/app/modules/_shares"
+      ],
+      "@org/*": ["src/app/modules/org/fields/*"],
+      "@employee": [
+        "src/app/modules/employee/fields"
+      ],
+      "@uranplus/*": ["packages/node-cavalry/*"],
+      "@sys/*": ["src/app/modules/sys/fields/*"]
+    }
+  }
+}

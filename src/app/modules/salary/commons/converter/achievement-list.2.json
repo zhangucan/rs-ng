@@ -1,0 +1,36 @@
+[
+  {
+    "date": "2018-12-05",
+    "state": {
+      "code": "001",
+      "name": "待审核"
+    },
+    "his": {
+      "id": "KidafGcB3LGDVMbgXUUb",
+      "name": "谢小丽"
+    },
+    "type": {
+      "name": "绩效",
+      "code": "001"
+    },
+    "value": 2000,
+    "createDate": "2018-12-05"
+  },
+  {
+    "date": "2018-12-05",
+    "state": {
+      "code": "001",
+      "name": "待审核"
+    },
+    "his": {
+      "id": "KidafGcB3LGDVMbgXUUb",
+      "name": "谢小丽"
+    },
+    "type": {
+      "name": "绩效",
+      "code": "001"
+    },
+    "value": 2000,
+    "createDate": "2018-12-05"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "qic2fGcB3LGDVMbgZRuq",
+    "state": {
+      "code": "001",
+      "name": "待审核"
+    },
+    "date": "2018-11-02",
+    "his": {
+      "id": "KidafGcB3LGDVMbgXUUb",
+      "name": "谢小丽"
+    },
+    "value": 2000,
+    "inUnit": {
+      "id": "z_o0U2cB3LGDVMbgZUMM",
+      "name": "佛吉亚"
+    },
+    "orgIn": {
+      "id": "z_WnTWcB3LGDVMbgpkFH",
+      "name": "中铁十一局项目组",
+      "code": "001001015086",
+      "teamId": 1543196091631
+    },
+    "name": "撒打算的",
+    "phoneNumber": "13199999993",
+    "createDate": "2018-12-05",
+    "audit": {
+      "auditorId": "5c0727f79d6e685aad3ad658",
+      "state": 1,
+      "auditorName": "谢小丽",
+      "auditDate": "2018-12-05 11:26:08"
+    }
+  },
+  {
+    "id": "qic2fGcB3LGDVMbgZRuq",
+    "state": {
+      "code": "001",
+      "name": "待审核"
+    },
+    "date": "2018-12-05",
+    "his": {
+      "id": "KidafGcB3LGDVMbgXUUb",
+      "name": "谢小丽"
+    },
+    "value": 2000,
+    "inUnit": {
+      "id": "z_o0U2cB3LGDVMbgZUMM",
+      "name": "佛吉亚"
+    },
+    "orgIn": {
+      "id": "z_WnTWcB3LGDVMbgpkFH",
+      "name": "中铁十一局项目组",
+      "code": "001001015086",
+      "teamId": 1543196091631
+    },
+    "name": "撒打算的",
+    "phoneNumber": "13199999993",
+    "createDate": "2018-12-05",
+    "audit": {
+      "auditorId": "5c0727f79d6e685aad3ad658",
+      "state": 1,
+      "auditorName": "谢小丽",
+      "auditDate": "2018-12-05 11:26:08"
+    }
+  }
+]
