@@ -2,7 +2,7 @@ import {AuthUtils} from '@er/core';
 import {CommonsUtils} from '@er/utils';
 import {DICT_CODES} from '../modules/commons/dict-code';
 import {MenuItem} from '@er/types/lib/menu';
-
+import {  } from "@uranplus/cavalry-define/index";
 export class MenuUtils {
 
   private static checkMenuPermission = (options) => {
@@ -21,7 +21,7 @@ export class MenuUtils {
       return (CommonsUtils.isEmpty(_dept) || _dept.indexOf(userDept) >= 0) &&
         (CommonsUtils.isEmpty(_role) || _role.some(role => userRoles.indexOf(role) >= 0));
     }
-  };
+  }
 
   static getUserMenuItems(menuItems: MenuItem[]) {
     const userMenuItems: MenuItem[] = [];
